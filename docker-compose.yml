@@ -43,6 +43,8 @@ services:
         networks:
             - bitrix
         restart: always
+        security_opt:
+            - seccomp:unconfined
 
     memcached:
         image: memcached:${MEMCACHED_VERSION}
