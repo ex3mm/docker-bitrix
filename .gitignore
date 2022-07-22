@@ -7,3 +7,6 @@ logs/php
 src/*
 docker/mysql/db/
 docker/cache
+docker/tmp/*
+docker/certbot/*
+TODO.txt
