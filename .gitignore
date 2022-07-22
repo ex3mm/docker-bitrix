@@ -1,5 +1,9 @@
 .idea
-logs
+logs/memcached
+logs/mysql
+logs/nginx
+logs/php
 .env
 src/*
 docker/mysql/db/
+docker/cache
