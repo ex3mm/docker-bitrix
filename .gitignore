@@ -5,6 +5,7 @@ logs/nginx
 logs/php
 .env
 src/*
+!src/bitrixsetup.php
 docker/mysql/db/
 docker/cache
 docker/tmp/*
